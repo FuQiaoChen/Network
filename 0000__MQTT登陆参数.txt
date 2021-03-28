@@ -1,15 +1,15 @@
 ProductKey:
-	a18kOdhv607
+	----dhv607
 DeviceName:
 	CFQ01
 DeviceSecret:
-	aad91de2d2028b433d187272eeb54542
+	--------3d187272eeb54542
 
 
 
 
 
-Broker Address:a18kOdhv607.iot-as-mqtt.cn-shanghai.aliyuncs.com
+Broker Address:---dhv607.iot-as-mqtt.cn-shanghai.aliyuncs.com
 
 		${YourProductKey}.iot-as-mqtt.${YourRegionId}.aliyuncs.com
 
@@ -26,20 +26,20 @@ Client ID:123456|securemode=3,signmethod=hmacsha1|
 
 
 
-User Name:CFQ01&a18kOdhv607
+User Name:CFQ01&---dhv607
 
 	  ${DeviceName}&${ProductKey}
 
-Password:DB7389052F22CA84732CFD85C0BB32219F32EEC2
+Password:-------------32219F32EEC2
 
-	hmacsha1(aad91de2d2028b433d187272eeb54542,clientId123456deviceNameCFQ01productKeya18kOdhv607)   //本示例没有选择可选参数timestamp
+	hmacsha1(-------3d187272eeb54542,clientId123456deviceNameCFQ01productKey----dhv607)   //本示例没有选择可选参数timestamp
 	
 	${signmethod}(${deviceSecret},clientId${clientId}deviceName${deviceName}productKey${productKey}timestamp${timestamp})	
 	//可使用Password生成小工具"sign.html"生成,
 	//也可在"https://1024tools.com/hmac"网站上生成
-		消息：clientId123456deviceNameCFQ01productKeya18kOdhv607
+		消息：clientId123456deviceNameCFQ01productKey---dhv607
 		算法：sha1
-		密钥：clientId123456deviceNameCFQ01productKeya18kOdhv607
+		密钥：--------3d187272eeb54542
 
 
 		//注意：
