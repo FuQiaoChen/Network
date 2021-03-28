@@ -1,0 +1,48 @@
+ProductKey:
+	a18kOdhv607
+DeviceName:
+	CFQ01
+DeviceSecret:
+	aad91de2d2028b433d187272eeb54542
+
+
+
+
+
+Broker Address:a18kOdhv607.iot-as-mqtt.cn-shanghai.aliyuncs.com
+
+		${YourProductKey}.iot-as-mqtt.${YourRegionId}.aliyuncs.com
+
+	
+
+Broker Port:1883
+
+
+Client ID:123456|securemode=3,signmethod=hmacsha1|
+
+		${ClientID}|securemode=${Mode},signmethod=${SignMethod}|
+		//TCP直连模式设置为securemode=3，无需设置SSL/TLS信息。TLS直连模式设置为securemode=2，需要设置SSL/TLS信息
+		//signmethod为算法类型，支持hmacmd5和hmacsha1。
+
+
+
+User Name:CFQ01&a18kOdhv607
+
+	  ${DeviceName}&${ProductKey}
+
+Password:DB7389052F22CA84732CFD85C0BB32219F32EEC2
+
+	hmacsha1(aad91de2d2028b433d187272eeb54542,clientId123456deviceNameCFQ01productKeya18kOdhv607)   //本示例没有选择可选参数timestamp
+	
+	${signmethod}(${deviceSecret},clientId${clientId}deviceName${deviceName}productKey${productKey}timestamp${timestamp})	
+	//可使用Password生成小工具"sign.html"生成,
+	//也可在"https://1024tools.com/hmac"网站上生成
+		消息：clientId123456deviceNameCFQ01productKeya18kOdhv607
+		算法：sha1
+		密钥：clientId123456deviceNameCFQ01productKeya18kOdhv607
+
+
+		//注意：
+		//timestamp：（可选）时间戳
+		//clientId：设备的ID信息，与MQTT.fx的Client ID中${clientId}一致
+		//method：选择签名算法类型，与MQTT.fx的Client ID中signmethod确定的加密方法一致
