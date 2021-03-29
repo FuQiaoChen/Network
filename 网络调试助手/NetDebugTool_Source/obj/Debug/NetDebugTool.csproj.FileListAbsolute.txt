@@ -1,0 +1,9 @@
+D:\ttt\NetDebugTool_Source\obj\Debug\ResolveAssemblyReference.cache
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.NetDebugTool.Form1.resources
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.NetDebugTool.Properties.Resources.resources
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.NetDebugTool.ReceiveUc.resources
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.NetDebugTool.SendUc.resources
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.NetDebugTool.TCPClinetForm.resources
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.NetDebugTool.TCPServerForm.resources
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.NetDebugTool.UDPForm.resources
+D:\ttt\NetDebugTool_Source\obj\Debug\NetDebugTool.csproj.GenerateResource.Cache

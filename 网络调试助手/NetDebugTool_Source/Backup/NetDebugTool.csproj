@@ -1,0 +1,50 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="7F08F7EC-9E9C-4D0A-8F14-88CEC9E662D9">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="NetDebugTool" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="WinExe" PreBuildEvent="" PostBuildEvent="" RootNamespace="NetDebugTool" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="DevComponents.DotNetBar2" AssemblyName="DevComponents.DotNetBar2" HintPath="DevComponents.DotNetBar2.dll" />
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" HintPath="System.Windows.Forms.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="nsoftware.IPWorks" AssemblyName="nsoftware.IPWorks" HintPath="nsoftware.IPWorks.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\ISendUC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\UDPForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\StatCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\TCPClinetForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\SetTextCallBack.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\ReceiveUc.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool.Properties\Settings.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\CVT.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\AddItemToListviewCallBack.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\TCPServerForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\Program.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\SendUc.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\DelegateCloseSplash.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\DelegateSetSplashText.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\SplashForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\LogData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\Form1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool\MyRichtextBox.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="NetDebugTool.exe.licenses" BuildAction="EmbeddedResource" />
+        <File RelPath="NetDebugTool.ReceiveUc.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="NetDebugTool.Form1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="NetDebugTool.SendUc.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="NetDebugTool.TCPServerForm.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="NetDebugTool.UDPForm.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="NetDebugTool.TCPClinetForm.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="NetDebugTool.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>
